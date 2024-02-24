@@ -9,54 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="first">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FastService.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Bo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Vo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/MapperBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/DaoProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/BoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/VoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/BoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/VoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/FastMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelSnowflake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelUUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/ResultLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/MapperService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/BoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FilterStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/VoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FastServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MyBatisConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/MyUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mapper/MyUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/MyUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-sql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="第一次提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +109,7 @@
       <workItem from="1708799114691" duration="15000" />
       <workItem from="1708799140364" duration="35000" />
       <workItem from="1708799227226" duration="6223000" />
-      <workItem from="1708805782615" duration="1153000" />
+      <workItem from="1708805782615" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1663719507643</created>
@@ -165,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663719507643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1708806976683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708806976683</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第一次提交">
+      <created>1708807215583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708807215583</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
