@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="第一次提交" />
+    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="第一次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml.sha1" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +121,7 @@
       <workItem from="1708799114691" duration="15000" />
       <workItem from="1708799140364" duration="35000" />
       <workItem from="1708799227226" duration="6223000" />
-      <workItem from="1708805782615" duration="1463000" />
+      <workItem from="1708805782615" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1663719507643</created>
