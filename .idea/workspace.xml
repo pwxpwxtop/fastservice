@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fastservice" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="first">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Bo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Vo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/MapperBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/DaoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/BoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/VoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/BoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/VoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/FastMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelSnowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/ResultLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/MapperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/BoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FilterStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/VoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FastServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MyBatisConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/MyUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mapper/MyUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-sql.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\app\maven\resourcesJAR" />
+        <option name="mavenHome" value="C:/app/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\app\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EuyUShAq34VIZCTr89IyMHynd3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3402299" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\file\IDEA\FastService\FastService\src\test" />
+      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java\pers\pwx\fastservice\result" />
+      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java\pers\pwx\fastservice" />
+      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java" />
+      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java\com\example\fastservice" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FastServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="FastService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.FastServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FastServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="" />
+      <created>1663459779317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663459779317</updated>
+      <workItem from="1663459780765" duration="24088000" />
+      <workItem from="1663590476585" duration="1968000" />
+      <workItem from="1663719474863" duration="64000" />
+      <workItem from="1663941486562" duration="699000" />
+      <workItem from="1708798472043" duration="629000" />
+      <workItem from="1708799114691" duration="15000" />
+      <workItem from="1708799140364" duration="35000" />
+      <workItem from="1708799227226" duration="6223000" />
+      <workItem from="1708805782615" duration="1153000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1663719507643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663719507643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://C:/app/maven/resourcesJAR/com/baomidou/mybatis-plus-extension/3.5.2/mybatis-plus-extension-3.5.2.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class</url>
+          <line>37</line>
+          <properties field="baseMapper" class="com.baomidou.mybatisplus.extension.service.impl.ServiceImpl" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="pers.pwx.fastservice.result.Result" memberName="data" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
