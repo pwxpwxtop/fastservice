@@ -4,12 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-/**
- * @author pwx
- * @version 1.0
- * @describe sql字符串过滤
- * @date 2022/11/12 16:44
- */
+
 public class FilterStr {
 
     //过滤特殊字符

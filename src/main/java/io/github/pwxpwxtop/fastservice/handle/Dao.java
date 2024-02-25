@@ -3,12 +3,7 @@ package io.github.pwxpwxtop.fastservice.handle;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 
-/**
- * @description: 处理
- * @author: pwx
- * @data: 2022/11/4 20:52
- * @version: 1.0
- */
+
 public class Dao<T> {
 
 

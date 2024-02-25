@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="第一次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/FastService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar" beforeDir="false" />
@@ -21,6 +23,27 @@
       <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml.md5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Bo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Bo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Vo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Vo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/BoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/BoType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/BoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/BoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/VoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/VoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/FastMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/FastMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelSnowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelSnowflake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelUUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelUUID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/ResultLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/ResultLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/MapperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/MapperService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/BoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/BoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FilterStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FilterStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/VoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/VoUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +96,7 @@
     <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3402299" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -121,7 +144,9 @@
       <workItem from="1708799114691" duration="15000" />
       <workItem from="1708799140364" duration="35000" />
       <workItem from="1708799227226" duration="6223000" />
-      <workItem from="1708805782615" duration="3681000" />
+      <workItem from="1708805782615" duration="5666000" />
+      <workItem from="1708843038067" duration="4144000" />
+      <workItem from="1708847333140" duration="6402000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1663719507643</created>
@@ -144,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708807215583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第一次提交">
+      <created>1708809717661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708809717661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +210,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java</url>
-          <line>19</line>
+          <line>14</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>

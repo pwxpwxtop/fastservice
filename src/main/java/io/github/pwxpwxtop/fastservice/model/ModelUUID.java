@@ -7,12 +7,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @description: uuid的生成
- * @author: pwx
- * @data: 2022/9/14 19:12
- * @version: 1.0
- */
+
 @Data
 public class ModelUUID {
 

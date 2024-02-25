@@ -22,12 +22,7 @@ import javax.annotation.Resource;
 
 
 
-/**
- * @description:
- * @author: pwx
- * @data: 2022/9/6 21:21
- * @version: 1.0
- */
+
 
 public abstract class BaseService<T, M extends BaseMapper<T>> implements Service<T> {
 

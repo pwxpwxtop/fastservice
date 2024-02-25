@@ -6,12 +6,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * @description: 自增id实体
- * @author: pwx
- * @data: 2022/9/14 19:14
- * @version: 1.0
- */
+
 @Data
 public class ModelAuto {
 

@@ -13,14 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-/**
- * @Description: 处理实体类
- * @Author: PWX
- * @CreateDate: 2024/2/24 13:34
- * @UpdateUser: IntelliJ IDEA
- * @UpdateDate: 2024/2/24 13:34
- * @Version: 1.0
- */
+
 public class BoUtils {
 
     public  static  <T, M extends BaseMapper<T>> T getModel(T t, M mapper) throws BoException{
@@ -75,17 +68,7 @@ public class BoUtils {
 
 
 
-    /**
-     *
-     * @param t 处理对象
-     * @param mapper 数据库mapper
-     * @param field 字段
-     * @param bo bo注解
-     * @param value 字段value值
-     * @param name 字段名
-     * @param <T>
-     * @throws BoException
-     */
+
     public static <T, M extends BaseMapper<T>> void voHandle(T t , M mapper, Field field,Bo bo, Object value, String name) throws BoException {
         BoType [] boTypes = bo.type();
         for (BoType boType : boTypes) {
@@ -175,17 +158,7 @@ public class BoUtils {
 
         return t;
     }
-    /**
-     *
-     * @param t 处理对象
-     * @param mapper 数据库mapper
-     * @param field 字段
-     * @param bo bo注解
-     * @param value 字段value值
-     * @param name 字段名
-     * @param <T>
-     * @throws BoException
-     */
+
     public static <T, M extends BaseMapper<T>> void voHandleUpdate(T t , M mapper, Field field,Bo bo, Object value, String name, Map<String, String> map) throws BoException {
         BoType [] boTypes = bo.type();
         for (BoType boType : boTypes) {
@@ -219,9 +192,9 @@ public class BoUtils {
 
     /**
      *
-     * @param value 匹配内容
-     * @param bo bo bo注解
-     * @throws VoException
+     * param value 匹配内容
+     * param bo bo bo注解
+     * throws VoException
      */
     private static void regexValue(Object value, Bo bo) throws BoException {
         if (bo.exist() && value != null){//对字段value进行处理

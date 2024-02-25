@@ -7,12 +7,6 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * @description:
- * @author: pwx
- * @data: 2022/9/18 19:49
- * @version: 1.0
- */
 
 public interface FastMapper<T> extends BaseMapper<T> {
 
