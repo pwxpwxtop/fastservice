@@ -15,4 +15,4 @@
  * limitations under the License.
  *
  */
-package io.github.pwxpwxtop.fastservice.service.core;
+package io.github.pwxpwxtop.fastservice.dao;
