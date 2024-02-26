@@ -1,14 +1,25 @@
-# 🐞这是一个快捷的代码业务，可以快速帮助你实现CRUD
+# 🐞这是一个可以简化代码，可以快速帮助你实现CRUD
 
 
 
-### 🔥🔥🔥主要基于 [SpringBoot](https://spring.io/)  和 [Mybatis-plus](https://baomidou.com/) 结合快速实现CRUD的功能
+### 🕹️Fastservice是什么？
+
+```
+1.一个可以快速实现 创建数据，查询数据，修改数据，删除数据的加强工具
+2.可以提高你写代码的速度，简化代码量
+```
 
 
 
+### ☃️相关说明：
 
+##### 需要用到spingboot依赖： [SpringBoot](https://spring.io/) 
 
-#### 🚀🚀🚀maven的依赖
+##### 依赖Mybatis-plus工具： [Mybatis-plus](https://baomidou.com/)
+
+#### 
+
+### 🚀fastservice的 maven的依赖
 
 ```pom.xml
 <dependency>
@@ -16,6 +27,48 @@
     <artifactId>fastservice</artifactId>
     <version>1.0.0</version>
 </dependency>
+```
+
+
+
+##### 方案一：通过idea创建springboot项目，添加相关依赖到pom.xml
+
+```
+<!--lombok-->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <optional>true</optional>
+</dependency>
+
+<!--MySql-->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.28</version>
+</dependency>
+
+<!-- mybatis-plus -->
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>mybatis-plus-boot-starter</artifactId>
+    <version>3.5.2</version>
+</dependency>
+
+<!-- fastservice -->
+<dependency>
+    <groupId>io.github.pwxpwxtop</groupId>
+    <artifactId>fastservice</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+
+
+##### 方案二：通过拉取现有springboot的项目进行，cmd创建
+
+```
+git clone https://gitee.com/xingble/springboot-singleton.git
 ```
 
 
@@ -50,6 +103,8 @@ public class MyUser {
     private Long age;
 
     private String sex;
+    
+    private String phone;
 }
 ```
 
@@ -166,14 +221,205 @@ POST http://127.0.0.1:8080/api/delete
 
 
 
-### 注解@Vo的使用
 
-。。。待更新
 
-### 注解@Bo的使用
+------
 
-。。。待更新
 
-### 进阶使用
 
-。。。待更新
+### 👻注解@Vo的使用
+
+
+
+#### 🤖🤖🤖视频讲解：[待发布。。。]()
+
+vo一般用来对数据库查询操作做的条件限制
+
+##### @Vo注解的内部参数
+
+| 名称  |       说明       |
+| :---: | :--------------: |
+| exist | 表示是否支持查询 |
+| type  | 表示查询匹配规则 |
+| regex |   正则匹配规则   |
+|  msg  | 查询返回提示消息 |
+
+
+
+##### 
+
+##### 在MyUser.java中添加@Vo注解
+
+**1  exist**：如果**@Vo(exist = false)**表示该字段不参与查询，不填写**@Vo**注解的话或者**@Vo(exist = true)**表示参与查询
+
+**2  type**：查询数据库方式
+
+```
+ VoType.EQ（默认查询）
+ EQ//相等查询
+ NE//不等于
+ LIKE//全模糊查询
+ LIKE_LEFT//左模糊查询
+ LIKE_RIGHT//右模糊查询
+ LT//小于查询
+ LE //小于等于查询
+ GT //大于查询
+ GE //大于等于查询
+ NOT_NULL//不能为空
+ NULL//为空
+```
+
+**3  regex**:  正则匹配，匹配如何参数是否符合要求
+
+**4  msg**：提示消息，返回给前端的提示消息
+
+```
+package com.xingble.model;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import io.github.pwxpwxtop.fastservice.animation.Vo;
+import io.github.pwxpwxtop.fastservice.enums.VoType;
+import lombok.Data;
+
+@Data
+@TableName("my_user")
+public class MyUser {
+	
+    @TableId(type = IdType.ASSIGN_ID)
+    private Long id;
+    
+    //查询的时候进行模糊查询，且查询name参数值不能为空
+    @Vo(type = {VoType.LIKE, VoType.NOT_NULL})
+    private String name;
+    
+    //正则匹配1-99年龄范围
+    @Vo(regex = "(0?[1-9]|[1-9][0-9])", msg = "超过年龄范围")
+    private Long age;
+
+	//不参与查询
+    @Vo(exist = false)
+    private String sex;
+
+	//正则匹配手机号码
+    @Vo(regex = "^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\\d{8}$", msg = "手机号码不正确")
+    private Long phone;
+}
+
+```
+
+
+
+------
+
+
+
+### 🐼注解@Bo的使用
+
+#### 🤖🤖🤖视频讲解：[待发布。。。]()
+
+bo一般对数据创建和修改限制条件
+
+##### @Bo注解的内部参数说明
+
+| 名称  |            说明            |
+| :---: | :------------------------: |
+| exist |      表示参与匹配字段      |
+| type  |          限制条件          |
+| regex |        正则匹配规则        |
+|  msg  | 添加或者查询返回提示的消息 |
+
+
+
+##### 在MyUser.java中添加@Vo注解
+
+**1  exist**：如果**@Bo(exist = false)**表示该字段不参与创建或更新，不填写**@Bo**注解的话或者**@Vo(exist = true)**表示参与创建或更新
+
+**2  type**：查询数据库方式
+    
+
+```
+NOT_STR//STR不能为空字符
+REPEAT//防止数据库字段重复
+FILTER//字段过虑，对特殊字传过来的参数进行过滤。比如传了个 name="$!hello&"，会将字段进行过滤为 name="hello"，将特殊字符给过虑掉
+```
+
+
+
+**3  regex**:  正则匹配，匹配如何传参数是否符合要求，正则匹配规则
+
+**4  msg**：正则匹配将不符合条件的消息返回给前端
+
+
+
+
+
+### 🌏进阶使用
+
+##### 如果想在接口追加新注解，你不想用默认的接口(/data, /insert, /update, /delete)名称,可以自定义,只需要您实现接口MapperService，重新实现接口之后，
+
+##### 在idea开发工具中，ctrl + O 键，去追加方法。下面是代码示例。
+
+```java
+package com.xingble.controller;
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.xingble.mapper.MyUserMapper;
+import com.xingble.model.MyUser;
+import io.github.pwxpwxtop.fastservice.r.R;
+import io.github.pwxpwxtop.fastservice.service.core.MapperService;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@RequestMapping("/api")
+public class MyUserController extends MapperService<MyUser, MyUserMapper> {
+
+    @Override
+    @GetMapping("/getData")
+    public R<MyUser> data(MyUser myUser, Page<MyUser> page) {
+        return super.data(myUser, page);
+    }
+
+    @Override
+    @PostMapping("/add")
+    public R<MyUser> insert(MyUser myUser) {
+        return super.insert(myUser);
+    }
+
+    @Override
+    @PostMapping("/edit")
+    public R<MyUser> update(MyUser myUser) {
+        return super.update(myUser);
+    }
+
+    @Override
+    @PostMapping("/remove")
+    public R<MyUser> delete(MyUser myUser) {
+        return super.delete(myUser);
+    }
+}
+
+```
+
+
+
+#### 这样我们就实现了自定义接口
+
+```
+http://127.0.0.1:8080
+/api/getData
+/api/add
+/api/edit
+/api/remove
+```
+
+
+
+
+
+### 觉得不错的话，点个star⭐
