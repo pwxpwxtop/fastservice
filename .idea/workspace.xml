@@ -9,41 +9,136 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="第一次提交">
+    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="说明文档提交">
       <change beforePath="$PROJECT_DIR$/.idea/FastService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_core_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_support_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_extension_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mybatis_flex_mybatis_flex_annotation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mybatis_flex_mybatis_flex_core_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mybatis_flex_mybatis_flex_processor_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_xingble_xingble_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.pom.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/1.0.0/fast-service-1.0.0.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fast-service/maven-metadata.xml.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Bo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Bo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Vo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/Vo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/BoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/BoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/BoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/BoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/VoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/VoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/FastMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/mapper/FastMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelSnowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelSnowflake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelUUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ModelUUID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/ResultLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/r/ResultLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/MapperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/MapperService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/BoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/BoUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FilterStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FilterStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/VoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/VoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-javadoc.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-javadoc.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-javadoc.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-sources.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-sources.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0-sources.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/1.0.0/fastservice-1.0.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/io/github/pwxpwxtop/fastservice/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/handle/Dao.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,20 +187,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
-    <property name="project.structure.last.edited" value="工件" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fastservice_test/springboot-singleton" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3402299" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\file\IDEA\FastService\FastService\src\test" />
-      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java\pers\pwx\fastservice\result" />
-      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java\pers\pwx\fastservice" />
-      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java" />
-      <recent name="D:\File\IdeaFile\FastService\FastService1.0\src\main\java\com\example\fastservice" />
+      <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\animation" />
+      <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\bean" />
+      <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\dao" />
+      <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\enums" />
+      <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\exception" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,7 +242,15 @@
       <workItem from="1708799227226" duration="6223000" />
       <workItem from="1708805782615" duration="5666000" />
       <workItem from="1708843038067" duration="4144000" />
-      <workItem from="1708847333140" duration="6402000" />
+      <workItem from="1708847333140" duration="12418000" />
+      <workItem from="1708865924305" duration="213000" />
+      <workItem from="1708866150565" duration="8076000" />
+      <workItem from="1708877931026" duration="130000" />
+      <workItem from="1708882144287" duration="465000" />
+      <workItem from="1708916266755" duration="1933000" />
+      <workItem from="1708943252544" duration="602000" />
+      <workItem from="1708953458617" duration="1232000" />
+      <workItem from="1709268440711" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1663719507643</created>
@@ -176,11 +280,64 @@
       <option name="project" value="LOCAL" />
       <updated>1708809717661</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第一次提交">
+      <created>1708854745207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708854745207</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第一次提交">
+      <created>1708875121272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708875121272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第一次提交">
+      <created>1708876731057</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708876731057</updated>
+    </task>
+    <task id="LOCAL-00008" summary="说明文档提交">
+      <created>1708882196977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708882196977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="说明文档提交">
+      <created>1708916410012</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708916410013</updated>
+    </task>
+    <task id="LOCAL-00010" summary="说明文档提交">
+      <created>1708953478146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708953478146</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -197,7 +354,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="说明文档提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="说明文档提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
