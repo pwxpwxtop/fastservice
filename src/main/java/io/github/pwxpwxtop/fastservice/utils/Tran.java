@@ -10,6 +10,7 @@ public class Tran {
         return val;
     }
 
+    //下划线转换成驼峰
     public static String toHump(String line){
         Matcher matcher = Pattern.compile("(?<=_)[a-zA-Z]").matcher(line.trim());
         while (matcher.find()) {
@@ -19,7 +20,7 @@ public class Tran {
         return line;
     }
 
-
+    //驼峰转换成下划线
     public static String toUnderLine(String line){
         Matcher matcher = Pattern.compile("[A-Z]").matcher(line.trim());
         while (matcher.find()) {

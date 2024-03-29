@@ -19,7 +19,6 @@ public class MyBatisConf implements MetaObjectHandler{
 
     public void insertFill(MetaObject metaObject) {
         Date date = new Date();
-
         metaObject.setValue("createTime", date);
         metaObject.setValue("updateTime", date);
         setFieldValByName("deleteState", 0, metaObject);

@@ -1,5 +1,6 @@
 package com.example.model;
 
+import com.alibaba.excel.annotation.ExcelProperty;
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -22,6 +23,7 @@ import java.util.Date;
 public class BaseModel {
 
     @TableId(type = IdType.ASSIGN_ID)
+    @ExcelProperty("唯一id")
     private Long id;
 
     //创建时间

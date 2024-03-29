@@ -8,7 +8,6 @@ import java.util.List;
 
 public interface Dao {
 
-    @SelectProvider(value = DaoProvider.class, method = "data")
-    List<Object> data(Class<?> cls);
-
+    @SelectProvider(value = DaoProvider.class, method = "sql")
+    List<Object> sql(String sql);
 }
