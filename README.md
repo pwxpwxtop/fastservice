@@ -5,7 +5,7 @@
 ### 🕹️Fastservice是什么？
 
 ```
-1.一个可以快速实现 创建数据，查询数据，修改数据，删除数据的加强工具
+1.一个可以快速实现 创建数据，查询数据，修改数据，删除数据，导入excle，导出excel的加强工具
 2.可以提高你写代码的速度，简化代码量
 ```
 
@@ -17,7 +17,11 @@
 
 ##### 依赖Mybatis-plus工具： [Mybatis-plus](https://baomidou.com/)
 
-#### 
+##### Excel导入导出依赖项工具：[easyexcel](https://github.com/alibaba/easyexcel)
+
+
+
+
 
 ### 🚀fastservice的 maven的依赖
 
@@ -25,47 +29,13 @@
 <dependency>
     <groupId>io.github.pwxpwxtop</groupId>
     <artifactId>fastservice</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
 
 
-##### 方案一：通过idea创建springboot项目，添加相关依赖到pom.xml
-
-```
-<!--lombok-->
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <optional>true</optional>
-</dependency>
-
-<!--MySql-->
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.28</version>
-</dependency>
-
-<!-- mybatis-plus -->
-<dependency>
-    <groupId>com.baomidou</groupId>
-    <artifactId>mybatis-plus-boot-starter</artifactId>
-    <version>3.5.2</version>
-</dependency>
-
-<!-- fastservice -->
-<dependency>
-    <groupId>io.github.pwxpwxtop</groupId>
-    <artifactId>fastservice</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
-
-
-
-##### 方案二：通过拉取现有springboot的项目进行，cmd创建
+##### 开始：拉取现有springboot的项目进行测试，cmd创建
 
 ```
 git clone https://gitee.com/xingble/springboot-singleton.git
@@ -73,7 +43,21 @@ git clone https://gitee.com/xingble/springboot-singleton.git
 
 
 
-### 🤖🤖🤖视频讲解：[点击跳转](https://www.bilibili.com/video/BV1ut421877s/)
+### 默认api接口
+
+| 接口      |       说明        |
+| :-------- | :---------------: |
+| /data     |   查询数据接口    |
+| /insert   |   添加数据接口    |
+| /update   |   更新数据接口    |
+| /delete   |   删除数据接口    |
+| /deletes  |   批量删除数据    |
+| /impExcel | 导入excel数据接口 |
+| /expExcel | 导出excel数据接口 |
+
+
+
+### 🤖🤖🤖视频讲解：[点击跳转1](https://www.bilibili.com/video/BV1ut421877s/)
 
 
 
@@ -419,6 +403,10 @@ http://127.0.0.1:8080
 ```
 
 
+
+
+
+内容待更新。。。
 
 
 
