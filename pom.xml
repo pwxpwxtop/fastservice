@@ -11,15 +11,16 @@
 
     <groupId>io.github.pwxpwxtop</groupId>
     <artifactId>fastservice</artifactId>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <name>fastservice</name>
     <description>
         版本说名:
+        1.添加了导入,导出,批量删除功能
+        2.添加了自定义的sql进行查询
     </description>
     <url>https://github.com/pwxpwxtop/fastservice</url>
-
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -70,11 +71,6 @@
             <version>3.5.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>easyexcel</artifactId>
-            <version>3.1.1</version>
-        </dependency>
 
         <!-- fastjson2 的使用 -->
         <dependency>
@@ -83,44 +79,23 @@
             <version>2.0.1</version>
         </dependency>
 
-        <!-- mybatis-flex -->
+        <!-- easyexcel文件导出 -->
         <dependency>
-            <groupId>com.mybatis-flex</groupId>
-            <artifactId>mybatis-flex-core</artifactId>
-            <version>1.2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mybatis-flex</groupId>
-            <artifactId>mybatis-flex-processor</artifactId>
-            <version>1.2.2</version>
-            <scope>provided</scope>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>3.3.4</version>
         </dependency>
 
     </dependencies>
 
-    <developers>
-        <developer>
-            <name>PWX</name>
-            <email>2207310754@qq.com</email>
-            <organization>pwx</organization>
-            <organizationUrl>https://www.sonatype.com</organizationUrl>
-        </developer>
-    </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/pwxpwxtop/fastservice.git</connection>
-        <developerConnection>scm:git:ssh://github.com:pwxpwxtop/fastservice.git</developerConnection>
-        <url>https://github.com/pwxpwxtop/fastservice/tree/master</url>
-    </scm>
-
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
 
 <!--        <repository>-->
@@ -135,19 +110,37 @@
 
     <build>
         <plugins>
+            <!--    Maven插件发布    -->
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.4.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                    <tokenAuth>true</tokenAuth>
+                    <autoPublish>true</autoPublish>
+                </configuration>
+            </plugin>
 
-            <!--   编译不成功先注释这段插件      -->
-<!--            <plugin>-->
-<!--                <groupId>org.sonatype.central</groupId>-->
-<!--                <artifactId>central-publishing-maven-plugin</artifactId>-->
-<!--                <version>0.3.0</version>-->
-<!--                <extensions>true</extensions>-->
-<!--                <configuration>-->
-<!--                    <publishingServerId>central</publishingServerId>-->
-<!--                    <tokenAuth>true</tokenAuth>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
 
+            <!--    签名插件        -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!--     生成源文件       -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -161,6 +154,7 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--     生成源javadocs文件       -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -174,6 +168,8 @@
                     </execution>
                 </executions>
             </plugin>
+
+
 
         </plugins>
     </build>
