@@ -73,7 +73,7 @@ public class BoUtils {
         BoType [] boTypes = bo.type();
         for (BoType boType : boTypes) {
             switch (boType){
-                case NOT_STR:
+                case NOT_NULL_STR:
                     if (value == null || "".equals(String.valueOf(value).trim())){
                         throw new BoException("存在NULL或空字符数据的字段--> " + name);
                     }
@@ -163,7 +163,7 @@ public class BoUtils {
         BoType [] boTypes = bo.type();
         for (BoType boType : boTypes) {
             switch (boType){
-                case NOT_STR:
+                case NOT_NULL_STR:
                     if (value == null || "".equals(String.valueOf(value).trim())){
                         throw new BoException("存在NULL或空字符数据的字段--> " + name);
                     }
