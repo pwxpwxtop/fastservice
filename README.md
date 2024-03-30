@@ -35,7 +35,13 @@
 
 
 
-##### 开始：拉取现有springboot的项目进行测试，cmd创建
+
+
+### 🤖🤖🤖视频讲解：[点击跳转1](https://www.bilibili.com/video/BV1ut421877s/)
+
+### 现在开始
+
+##### 第一步：去拉取现有springboot的项目进行测试，cmd创建
 
 ```
 git clone https://gitee.com/xingble/springboot-singleton.git
@@ -57,7 +63,7 @@ git clone https://gitee.com/xingble/springboot-singleton.git
 
 
 
-### 🤖🤖🤖视频讲解：[点击跳转1](https://www.bilibili.com/video/BV1ut421877s/)
+### 
 
 
 
