@@ -11,14 +11,15 @@
 
     <groupId>io.github.pwxpwxtop</groupId>
     <artifactId>fastservice</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <packaging>jar</packaging>
 
     <name>fastservice</name>
     <description>
+        项目说明：这是一个便捷的开发工具，可以便捷的实现添加，更新，删除，导入，导出功能
         版本说名:
-        1.添加了导入,导出,批量删除功能
-        2.添加了自定义的sql进行查询
+        1.修复了添加字段过虑不成功的问题
+        2.模糊查询like的问题，添加了更多查询方式的功能
     </description>
     <url>https://github.com/pwxpwxtop/fastservice</url>
     <licenses>
