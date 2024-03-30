@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import io.github.pwxpwxtop.fastservice.animation.Vo;
 import io.github.pwxpwxtop.fastservice.enums.VoType;
 import io.github.pwxpwxtop.fastservice.exception.VoException;
+import io.github.pwxpwxtop.fastservice.model.ModelAuto;
 
 
 import java.lang.reflect.Field;
@@ -87,9 +88,14 @@ public class VoUtils {
             switch (type){
                 case EQ: queryWrapper.eq(sqlName, value);break;
                 case NE: queryWrapper.ne(sqlName, value);break;
-                case LIKE: queryWrapper.like(sqlName, value);
-                case LIKE_LEFT: queryWrapper.likeLeft(sqlName, value);
+                case LIKE: queryWrapper.like(sqlName, value);break;
+                case LIKE_LEFT: queryWrapper.likeLeft(sqlName, value);break;
                 case LIKE_RIGHT: queryWrapper.likeRight(sqlName, value);break;
+                case NOT_LIKE: queryWrapper.notLike(sqlName, value);break;
+                case IN: queryWrapper.in(sqlName, value);break;
+                case NOT_IN: queryWrapper.notIn(sqlName, value);break;
+                case EXISTS: queryWrapper.exists(sqlName, value);break;
+                case NOT_EXISTS: queryWrapper.notExists(sqlName, value);break;
                 case LE: queryWrapper.le(sqlName, value);break;
                 case LT: queryWrapper.lt(sqlName, value);break;
                 case GE: queryWrapper.ge(sqlName, value);break;
