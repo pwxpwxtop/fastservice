@@ -47,10 +47,10 @@
 
 ### 现在开始
 
-#### 🍭第一步：去拉取现有springboot的项目进行测试，cmd创建
+#### 🍭第一步：去拉取现有springboot的项目进行尝试一下 或者 在你现有的项目引入依赖
 
 ```
-git clone https://gitee.com/xingble/springboot-singleton.git
+git clone https://github.com/pwxpwxtop/springboot-singleton
 ```
 
 
