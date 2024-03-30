@@ -12,9 +12,8 @@ public class FilterStr {
         if (str == null){
             return null;
         }
-        // 只允许字母和数字 // String regEx ="[^a-zA-Z0-9]";
         // 清除掉所有特殊字符
-        String regex="(?i)(--|select|create|delete|update|drop|from|and|or|—|[` ~!@#$%^&*+=|{}()';',.<>?~！@#￥%……&*（）+|{}【】‘；：”“’。 ，、？])";
+        String regex="(?i)(-|select|create|delete|update|drop|from|and|or|—|[-` ~!@#$%^&*+=|{}()';',.<>?~！@#￥%……&*（）+|{}【】‘；：”“’。 ，、？])";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(str);
         return m.replaceAll(" ").trim();
