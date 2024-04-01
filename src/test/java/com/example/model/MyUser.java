@@ -5,6 +5,8 @@ import com.alibaba.excel.annotation.ExcelIgnore;
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.baomidou.mybatisplus.annotation.*;
 import io.github.pwxpwxtop.fastservice.animation.Bo;
+import io.github.pwxpwxtop.fastservice.animation.sql.Index;
+import io.github.pwxpwxtop.fastservice.animation.sql.NotNull;
 import io.github.pwxpwxtop.fastservice.animation.Vo;
 import io.github.pwxpwxtop.fastservice.enums.BoType;
 import io.github.pwxpwxtop.fastservice.enums.VoType;
@@ -28,17 +30,21 @@ public class MyUser extends BaseModel{
     @Bo(type = { BoType.NOT_NULL_STR, BoType.FILTER, BoType.FILTER})
     @Vo(type = {VoType.LIKE})
     @ExcelProperty(value = "姓名")
+    @Index(9)
     private String name;
 
     @Bo(regex = "([1-9][0-9]{0,1}|100|0)", msg = "不在年龄范围内")
     @ExcelProperty(value = "年龄")
+    @Index(4) @NotNull
     private Integer age;
 
     @ExcelProperty("性别")
+    @Index(5)
     private String sex;
 
 
     @ExcelProperty(value = "手机号码")
+    @Index(8)
     private Long phone;
 
     @Vo(exist = false)

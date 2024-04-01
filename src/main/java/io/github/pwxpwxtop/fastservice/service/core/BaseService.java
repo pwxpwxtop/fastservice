@@ -37,7 +37,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     private Dao dao;
 
     @Override
-    @GetMapping("/data")
     public R<T> data(T t , Page<T> page) {
         QueryWrapper<T> wrapper = null;
         try {
@@ -51,7 +50,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     }
 
     @Override
-    @PostMapping("/insert")
     public R<T> insert(@RequestBody T t) {
         T t1 = null;
         try {
@@ -68,7 +66,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     }
 
     @Override
-    @PostMapping("/update")
     public R<T> update(@RequestBody T t) {
         T t1 = null;
         try {
@@ -85,7 +82,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     }
 
     @Override
-    @PostMapping("/delete")
     public R<T> delete(@RequestBody T t) {
         int count = mapper.deleteById(t);
         if (count == 0){
@@ -95,7 +91,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     }
 
     @Override
-    @PostMapping("/deletes")
     public R<T> deletes(@RequestBody List<String> ids) {
         long count = 0;
         try {
@@ -109,7 +104,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     }
 
     @Override
-    @PostMapping("/impExcel")
     public R<T> impExcel(MultipartFile file, T t, ImpPro<T> impPro) {
         ModelListener<T, M> modelListener = null;
         try {
@@ -123,7 +117,6 @@ public abstract class BaseService<T, M extends BaseMapper<T>> implements Service
     }
 
     @Override
-    @PostMapping("/expExcel")
     public void expExcel(@RequestBody ExpPro expPro, HttpServletResponse response,   T t) {
         try {
             ExcelUtils.expData(response, expPro, mapper, t);

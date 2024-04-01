@@ -9,29 +9,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="说明文档提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/listener/ModelListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ExpPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/ImpPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/FieldUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/SqlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/FastServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel.java" afterDir="false" />
+    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="1.1.1版本md文档说明">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Char.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Dates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Datetimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Decimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/DecimalPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Double64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Float32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Int.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Longs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/NotNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Varchar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/DatabaseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/SqlProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FastService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/bean/FastServiceBeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/DaoProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/dao/DaoProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/Tran.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/conf/MyBatisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MyBatisConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/model/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/model/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/SqlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/SqlUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/model/MyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/model/MyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +80,11 @@
         <option name="userSettingsFile" value="C:\app\maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8 (2)" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2EuyUShAq34VIZCTr89IyMHynd3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,6 +93,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -80,13 +101,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言" value="PostgreSQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3402299" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="Console" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,11 +122,27 @@
       <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\enums" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.model" />
+      <recent name="com.example.mytest" />
+      <recent name="io.github.pwxpwxtop.fastservice.animation.sql" />
       <recent name="io.github.pwxpwxtop.fastservice.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FastServiceApplication">
-    <configuration name="TestExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestExcel2.test01">
+    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.pwxpwxtop.fastservice.enums.DataType" />
+      <module name="FastService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.pwxpwxtop.fastservice.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExcel2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastService" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +151,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytest.TestExcel" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytest.TestExcel2" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +174,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestExcel.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mytest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytest.TestExcel" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FastServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="FastService" />
       <extension name="coverage">
@@ -147,9 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestExcel2.test01" />
+        <item itemvalue="JUnit.TestExcel.test01" />
+        <item itemvalue="应用程序.DataType" />
         <item itemvalue="Spring Boot.FastServiceApplication" />
         <item itemvalue="JUnit.TestExcel.test" />
-        <item itemvalue="JUnit.TestExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +248,20 @@
       <workItem from="1711526384245" duration="477000" />
       <workItem from="1711539934729" duration="1811000" />
       <workItem from="1711596507579" duration="28829000" />
-      <workItem from="1711682893048" duration="3415000" />
+      <workItem from="1711682893048" duration="7071000" />
+      <workItem from="1711692323029" duration="375000" />
+      <workItem from="1711692713807" duration="970000" />
+      <workItem from="1711693785742" duration="596000" />
+      <workItem from="1711694396606" duration="10078000" />
+      <workItem from="1711709931849" duration="2850000" />
+      <workItem from="1711772929838" duration="4400000" />
+      <workItem from="1711795255553" duration="2371000" />
+      <workItem from="1711799282848" duration="272000" />
+      <workItem from="1711799783655" duration="1282000" />
+      <workItem from="1711866259324" duration="6206000" />
+      <workItem from="1711897501979" duration="628000" />
+      <workItem from="1711934808633" duration="4205000" />
+      <workItem from="1711939052676" duration="12411000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1663719507643</created>
@@ -274,7 +347,126 @@
       <option name="project" value="LOCAL" />
       <updated>1709271943182</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="说明文档提交">
+      <created>1711686934606</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711686934606</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更改pom配置">
+      <created>1711704623753</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711704623753</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修改了下说明文档">
+      <created>1711714647483</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711714647483</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修改了dao的查询问题">
+      <created>1711775863850</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711775863850</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更改了字段名称">
+      <created>1711775883747</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711775883747</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加了一些查询属性">
+      <created>1711775907490</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711775907490</updated>
+    </task>
+    <task id="LOCAL-00019" summary="没有做出改变">
+      <created>1711775949076</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711775949076</updated>
+    </task>
+    <task id="LOCAL-00020" summary="字符串过虑的问题">
+      <created>1711775973988</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711775973988</updated>
+    </task>
+    <task id="LOCAL-00021" summary="追加了些查询属性">
+      <created>1711775999202</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711775999202</updated>
+    </task>
+    <task id="LOCAL-00022" summary="修改了测试属性">
+      <created>1711776034088</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711776034088</updated>
+    </task>
+    <task id="LOCAL-00023" summary="修改了测试属性">
+      <created>1711776482556</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711776482556</updated>
+    </task>
+    <task id="LOCAL-00024" summary="修改了测试属性">
+      <created>1711776489966</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711776489966</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1.1.1版本源文件及编译文件">
+      <created>1711795478150</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711795478150</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1.1.1版本md文档说明">
+      <created>1711799304962</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711799304962</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1.1.1版本md文档说明">
+      <created>1711799484524</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711799484524</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1.1.1版本md文档说明">
+      <created>1711799820020</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711799820020</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1.1.1版本md文档说明">
+      <created>1711799895934</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711799895934</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +499,19 @@
     <MESSAGE value="first" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="说明文档提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="说明文档提交" />
+    <MESSAGE value="更改pom配置" />
+    <MESSAGE value="修改了下说明文档" />
+    <MESSAGE value="修改了dao的查询问题" />
+    <MESSAGE value="更改了字段名称" />
+    <MESSAGE value="添加了一些查询属性" />
+    <MESSAGE value="没有做出改变" />
+    <MESSAGE value="字符串过虑的问题" />
+    <MESSAGE value="追加了些查询属性" />
+    <MESSAGE value="测试属性" />
+    <MESSAGE value="修改了测试属性" />
+    <MESSAGE value="1.1.1版本源文件及编译文件" />
+    <MESSAGE value="1.1.1版本md文档说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.1版本md文档说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -326,5 +530,14 @@
         <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FastService$TestExcel2_test01.ic" NAME="TestExcel2.test01 覆盖结果" MODIFIED="1711946097260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.mytest.*</FILTER>
+    </SUITE>
   </component>
 </project>
