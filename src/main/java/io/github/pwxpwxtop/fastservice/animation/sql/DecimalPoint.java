@@ -8,9 +8,5 @@ import java.lang.annotation.*;
 @Documented
 public @interface DecimalPoint {
 
-    /**
-     * 小数点后的位数
-     * @return
-     */
     int value() default 2;
 }
