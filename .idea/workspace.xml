@@ -9,42 +9,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="1.1.1版本md文档说明">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Bit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Char.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Dates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Datetimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Decimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/DecimalPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Default.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Double64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Float32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Int.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Longs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/NotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Times.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Varchar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/DatabaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/SqlProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel2.java" afterDir="false" />
+    <list default="true" id="e6c54371-76fe-4d38-b92d-be9f8bc8b030" name="变更" comment="1.2.0添加更新">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/exception/TemplateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/jdbc/Jdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/jdbc/JdbcMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/jdbc/JdbcPostgresql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/GenCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/codeTemplate/Controller.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/codeTemplate/Mapper.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/codeTemplate/Service.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FastService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/RegexType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/service/core/FastService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Bit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Int2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Double64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Float8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Float32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Float4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Int4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Longs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/animation/sql/Int8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/enums/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/SqlProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/model/SqlProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/ExcelUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/SqlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/SqlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/conf/MyBatisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MyBatisConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/conf/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/conf/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/controller/MyUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/mapper/MyUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/model/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/model/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/model/MyTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/model/MyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/model/MyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/mytest/TestExcel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/mytest/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application-sql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-sql.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/codeTemplate" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15" />
@@ -115,26 +112,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\file\IDEA\FastService\FastService\src\main\resources\codeTemplate" />
       <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\utils" />
       <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\animation" />
       <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\bean" />
       <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\dao" />
-      <recent name="D:\file\IDEA\FastService\FastService\src\main\java\io\github\pwxpwxtop\fastservice\enums" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.pwxpwxtop.fastservice.model" />
+      <recent name="io.github.pwxpwxtop.fastservice.exception" />
       <recent name="com.example.model" />
       <recent name="com.example.mytest" />
       <recent name="io.github.pwxpwxtop.fastservice.animation.sql" />
-      <recent name="io.github.pwxpwxtop.fastservice.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestExcel2.test01">
-    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.pwxpwxtop.fastservice.enums.DataType" />
+  <component name="RunManager" selected="Spring Boot.FastServiceApplication">
+    <configuration name="GenCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.pwxpwxtop.fastservice.utils.GenCodeUtils" />
       <module name="FastService" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.pwxpwxtop.fastservice.enums.*" />
+          <option name="PATTERN" value="io.github.pwxpwxtop.fastservice.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExcel2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastService" />
       <extension name="coverage">
         <pattern>
@@ -151,14 +149,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytest.TestExcel2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytest.Test2" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExcel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastService" />
       <extension name="coverage">
         <pattern>
@@ -167,14 +165,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytest.TestExcel" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytest.Test2" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExcel.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastService" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +181,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytest.TestExcel" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytest.Test2" />
+      <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestExcel2.test01" />
-        <item itemvalue="JUnit.TestExcel.test01" />
-        <item itemvalue="应用程序.DataType" />
         <item itemvalue="Spring Boot.FastServiceApplication" />
-        <item itemvalue="JUnit.TestExcel.test" />
+        <item itemvalue="JUnit.Test2.test04" />
+        <item itemvalue="应用程序.GenCodeUtils" />
+        <item itemvalue="JUnit.Test2.test02" />
+        <item itemvalue="JUnit.Test2.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +259,16 @@
       <workItem from="1711866259324" duration="6206000" />
       <workItem from="1711897501979" duration="628000" />
       <workItem from="1711934808633" duration="4205000" />
-      <workItem from="1711939052676" duration="12411000" />
+      <workItem from="1711939052676" duration="17546000" />
+      <workItem from="1712021353509" duration="9050000" />
+      <workItem from="1712033865386" duration="11859000" />
+      <workItem from="1712058286760" duration="1814000" />
+      <workItem from="1712061132198" duration="23000" />
+      <workItem from="1712061245448" duration="85000" />
+      <workItem from="1712122523615" duration="1834000" />
+      <workItem from="1712124923346" duration="2867000" />
+      <workItem from="1712145411953" duration="2811000" />
+      <workItem from="1712219409889" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1663719507643</created>
@@ -466,7 +473,28 @@
       <option name="project" value="LOCAL" />
       <updated>1711799895934</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1.2.0添加更新">
+      <created>1711955038325</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711955038325</updated>
+    </task>
+    <task id="LOCAL-00031" summary="1.2.0添加更新">
+      <created>1711955055751</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711955055751</updated>
+    </task>
+    <task id="LOCAL-00032" summary="1.2.0添加更新">
+      <created>1711955079214</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711955079214</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +539,8 @@
     <MESSAGE value="修改了测试属性" />
     <MESSAGE value="1.1.1版本源文件及编译文件" />
     <MESSAGE value="1.1.1版本md文档说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1.1版本md文档说明" />
+    <MESSAGE value="1.2.0添加更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.0添加更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -521,6 +550,11 @@
           <line>37</line>
           <properties field="baseMapper" class="com.baomidou.mybatisplus.extension.service.impl.ServiceImpl" />
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/pwxpwxtop/fastservice/utils/ExcelUtils.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
