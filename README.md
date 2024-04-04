@@ -11,6 +11,31 @@
 
 
 
+觉得不错的话，来个star⭐吧
+
+
+
+### 🔥🔥🔥1.2.0 更新说明
+
+```
+1.2.0版本更新说明.
+新内容：
+1. 自动创建表格sql语句，SqlUtils.getCreateTable()
+2. 生成代码工具类:GenCodeUtils.genCode()
+3. 更多注解使用 @Comment， @Char, @Dates , @Index等等。。。
+```
+
+
+
+### 🐞1.2.* bug修复
+
+```
+1.2.*bug修复
+暂无
+```
+
+
+
 ### ☃️相关说明：
 
 ##### 需要用到spingboot依赖： [SpringBoot](https://spring.io/) 
@@ -584,6 +609,163 @@ http://127.0.0.1:8080
 ```
 
 
+
+### 工具类SqlUtils.getCreateTable()
+
+##### 代码示例
+
+```java
+@Test
+public void test(){
+    //获取指定数据库创建表格
+    String sql1 = SqlUtils.getCreateTable(MyUser.class, DatabaseType.MYSQL);
+    System.out.println(sql1);
+
+    //获取mysql数据库sql创建语句
+    String sql2 = SqlUtils.getCreateTableMySql(MyUser.class);
+    System.out.println(sql2);
+
+    //获取postgresql数据库sql创建语句
+    String sql3= SqlUtils.getCreateTablePostgreSql(MyUser.class);
+    System.out.println(sql3);
+}
+```
+
+##### 返回结果
+
+```sql
+create table if not exists  `my_user`(  `id` bigint not null  comment '唯一id' ,  `name` varchar(10) comment '姓名' ,  `phone` bigint comment '手机号码' ,  `sex` varchar(255) comment '性别' ,  `age` int not null  comment '年龄' ,  `delete_state` int ,  `create_time` datetime ,  `create_by` varchar(255) ,  `update_time` datetime ,  `update_by` varchar(255) , primary key (id) );
+
+create table if not exists  `my_user`(  `id` bigint not null  comment '唯一id' ,  `name` varchar(10) comment '姓名' ,  `phone` bigint comment '手机号码' ,  `sex` varchar(255) comment '性别' ,  `age` int not null  comment '年龄' ,  `delete_state` int ,  `create_time` datetime ,  `create_by` varchar(255) ,  `update_time` datetime ,  `update_by` varchar(255) , primary key (id) );
+
+create table if not exists my_user( id bigint not null  , name varchar(10) , phone bigint , sex varchar(255) , age integer not null  , delete_state integer , create_time timestamp , create_by varchar(255) , update_time timestamp , update_by varchar(255) , primary key (id) );comment on column my_user.id is '唯一id';comment on column my_user.name is '姓名';comment on column 
+```
+
+
+
+#### 可以配合注解，匹配数据类型
+
+|     注解      |                             说明                             |
+| :-----------: | :----------------------------------------------------------: |
+|     @Char     |                      对应数据库char类型                      |
+|    @Times     |                           时间类型                           |
+|    @Dates     |                           日期类型                           |
+|  @Datetimes   |                          日期和时间                          |
+|   @Decimal    |         用于计算金钱的数据类型,例如 @Decimal(10, 2)          |
+|    @Float4    |                         4位浮点类型                          |
+|    @Float8    |                         8位浮点类型                          |
+|    @Index     |     数据库表格排序循序，@Index(100)，值越大，排在越前面      |
+|     @Int2     |                           2位整形                            |
+|     @Int4     |                           4位整形                            |
+|     @Int8     |                           8位整形                            |
+|   @Varchar    |                 可变字符类型，@Varchar(255)                  |
+|     @Text     |                         文本数据类型                         |
+|   @Default    |                  数据库默认值 @Default("0")                  |
+|    @Length    | 可以指定数据的长度，比如@Varchar(255)等同于@Varchar @Length(255)<br />再比如@Decimal(10, 2)等同于@Decimal @Length(10) @DecimalPoint(2) |
+| @DecimalPoint |                  可以指定数据库的浮点后长度                  |
+|   @NotNull    |                       指定不能位空数据                       |
+|   @TableId    |                           指定主键                           |
+
+
+
+#### 实体类示例代码
+
+```java
+@Data
+@TableName("my_user")
+public class MyUser {
+
+    @TableId(type = IdType.ASSIGN_ID)
+    @ExcelProperty("唯一id")
+    @Index(10)
+    @Int8 @NotNull
+    private Long id;
+
+
+    @Bo(type = { BoType.NOT_NULL_STR, BoType.FILTER, BoType.FILTER})
+    @Vo(type = {VoType.LIKE})
+    @ExcelProperty(value = "姓名")
+    @Index(9) @Varchar(10)
+    private String name;
+
+    @Bo(regex = "([1-9][0-9]{0,1}|100|0)", msg = "不在年龄范围内")
+    @ExcelProperty(value = "年龄")
+    @Index(4) @NotNull
+    private Integer age;
+
+    @ExcelProperty("性别")
+    @Index(5)
+    private String sex;
+
+
+    @ExcelProperty(value = "手机号码")
+    @Index(8)
+    private Long phone;
+
+    @Vo(exist = false)
+    @TableLogic(value = "0" , delval = "1")
+    @TableField(fill = FieldFill.INSERT)
+    @ExcelIgnore
+    private Integer deleteState;
+
+
+    //创建时间
+    @Bo(exist = false)
+    @TableField(fill = FieldFill.INSERT)
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
+
+    @TableField(fill = FieldFill.INSERT)
+    private String createBy;
+
+    //更新时间
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date updateTime;
+
+    //保存更新人的id或者更新人的姓名
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private String updateBy;
+
+}
+```
+
+
+
+### 代码生成工具GenCodeUtils.genCode()
+
+```
+@Test
+public void test04(){
+	JdbcMysql jdbc = new JdbcMysql(); //数据库配置
+	GenCodeUtils.genCode(MyUser.class,//生成表格实体类
+	jdbc,							  //传递的参数
+	"D:\\file\\com\\example",		  //生成文件的位置	
+	"com.example");					  //生成的包名	
+}
+```
+
+
+
+### 生成代码文件
+
+com.example
+
+  - controller
+
+    - MyUserController
+
+  - mapper
+
+    - MyUserMapper
+
+  - service
+
+    - MyUserService
+
+    
+
+#### 目前生成代码支持MySql，Postgresql数据库，[更多详情可以查看视频](https://www.bilibili.com/video/BV1ut421877s/)
 
 
 
