@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.github.pwxpwxtop.fastservice.animation.Bo;
+import io.github.pwxpwxtop.fastservice.animation.sql.Index;
 import lombok.Data;
 
 import java.util.Date;
@@ -24,6 +25,7 @@ public class BaseModel {
 
     @TableId(type = IdType.ASSIGN_ID)
     @ExcelProperty("唯一id")
+    @Index(100)
     private Long id;
 
     //创建时间
@@ -31,6 +33,9 @@ public class BaseModel {
     @TableField(fill = FieldFill.INSERT)
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
+
+    @TableField(fill = FieldFill.INSERT)
+    private String createBy;
 
     //更新时间
     @TableField(fill = FieldFill.INSERT_UPDATE)

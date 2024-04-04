@@ -25,6 +25,6 @@ public class MyBatisConf implements MetaObjectHandler{
     }
 
     public void updateFill(MetaObject metaObject) {
-        metaObject.setValue("updateTime", new Date());
+//        metaObject.setValue("updateTime", new Date());
     }
 }

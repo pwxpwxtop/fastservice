@@ -1,0 +1,68 @@
+package ${packageName}.controller;
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import ${packageName}.${model}.${name};
+import ${packageName}.service.${name}Service;
+import io.github.pwxpwxtop.fastservice.model.ExpPro;
+import io.github.pwxpwxtop.fastservice.model.ImpPro;
+import io.github.pwxpwxtop.fastservice.r.R;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+import javax.servlet.http.HttpServletResponse;
+import org.springframework.web.bind.annotation.RequestBody;
+import java.util.List;
+
+/**
+ * @Description:
+ * @Author:
+ * @CreateDate: ${datetime}
+ */
+@RestController
+@RequestMapping("/${nameLow}")
+public class ${name}Controller extends ${name}Service {
+
+    @Override
+    @GetMapping("/data")
+    public R<${name}> data(${name} obj, Page<${name}> page) {
+        return super.data(obj, page);
+    }
+
+    @Override
+    @PostMapping("/insert")
+    public R<${name}> insert(@RequestBody ${name} obj) {
+        return super.insert(obj);
+    }
+
+    @Override
+    @PostMapping("/update")
+    public R<${name}> update(@RequestBody ${name} obj) {
+        return super.update(obj);
+    }
+
+    @Override
+    @PostMapping("/delete")
+    public R<${name}> delete(@RequestBody ${name} obj) {
+        return super.delete(obj);
+    }
+
+    @Override
+    @PostMapping("/deletes")
+    public R<${name}> deletes(@RequestBody List<String> ids) {
+        return super.deletes(ids);
+    }
+
+    @Override
+    @PostMapping("/impExcel")
+    public R<${name}> impExcel(MultipartFile file, ${name} obj, ImpPro<${name}> impPro) {
+        return super.impExcel(file, obj, impPro);
+    }
+
+    @Override
+    @PostMapping("/expExcel")
+    public void expExcel(@RequestBody ExpPro expPro, HttpServletResponse response, ${name} obj) {
+        super.expExcel(expPro, response, obj);
+    }
+}

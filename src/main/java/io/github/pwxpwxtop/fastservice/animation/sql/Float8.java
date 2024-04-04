@@ -5,6 +5,6 @@ import java.lang.annotation.*;
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Float32 {
+public @interface Float8 {
 
 }

@@ -4,16 +4,20 @@ package com.example.model;
 import com.alibaba.excel.annotation.ExcelIgnore;
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.baomidou.mybatisplus.annotation.*;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.github.pwxpwxtop.fastservice.animation.Bo;
 import io.github.pwxpwxtop.fastservice.animation.sql.Index;
+import io.github.pwxpwxtop.fastservice.animation.sql.Int8;
 import io.github.pwxpwxtop.fastservice.animation.sql.NotNull;
 import io.github.pwxpwxtop.fastservice.animation.Vo;
+import io.github.pwxpwxtop.fastservice.animation.sql.Varchar;
 import io.github.pwxpwxtop.fastservice.enums.BoType;
 import io.github.pwxpwxtop.fastservice.enums.VoType;
 import lombok.Data;
 
 
-import java.util.Map;
+import java.util.Date;
+
 
 /**
  * @Description:
@@ -25,12 +29,19 @@ import java.util.Map;
  */
 @Data
 @TableName("my_user")
-public class MyUser extends BaseModel{
+public class MyUser {
+
+    @TableId(type = IdType.ASSIGN_ID)
+    @ExcelProperty("唯一id")
+    @Index(10)
+    @Int8 @NotNull
+    private Long id;
+
 
     @Bo(type = { BoType.NOT_NULL_STR, BoType.FILTER, BoType.FILTER})
     @Vo(type = {VoType.LIKE})
     @ExcelProperty(value = "姓名")
-    @Index(9)
+    @Index(9) @Varchar(10)
     private String name;
 
     @Bo(regex = "([1-9][0-9]{0,1}|100|0)", msg = "不在年龄范围内")
@@ -53,8 +64,23 @@ public class MyUser extends BaseModel{
     @ExcelIgnore
     private Integer deleteState;
 
-    @Bo(type = { BoType.NOT_NULL_STR}, exist = false)
-    @TableField(exist = false)
-    @ExcelIgnore//忽略这个字段
-    private Map<String, Object> map;
+
+    //创建时间
+    @Bo(exist = false)
+    @TableField(fill = FieldFill.INSERT)
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
+
+    @TableField(fill = FieldFill.INSERT)
+    private String createBy;
+
+    //更新时间
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date updateTime;
+
+    //保存更新人的id或者更新人的姓名
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private String updateBy;
+
 }

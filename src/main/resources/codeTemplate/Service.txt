@@ -1,0 +1,15 @@
+package ${packageName}.service;
+
+import ${packageName}.mapper.${name}Mapper;
+import ${packageName}.${model}.${name};
+import io.github.pwxpwxtop.fastservice.service.core.MapperService;
+
+/**
+ * @Description:
+ * @Author:
+ * @CreateDate: ${datetime}
+ */
+public class ${name}Service extends MapperService<${name}, ${name}Mapper> {
+
+
+}

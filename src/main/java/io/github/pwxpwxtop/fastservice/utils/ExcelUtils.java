@@ -36,10 +36,10 @@ public class ExcelUtils<T>{
         QueryWrapper<T> queryWrapper = new QueryWrapper<>();
         List<List<String>> listHead = null;
         //查询指定的列
-        if (columns.size() != 0){
+        if (columns != null && columns.size() != 0){
             String [] col = new String[columns.size()];
             for (int i = 0; i < columns.size(); i++) {
-                col[i] = columns.get(i);
+                col[i] = Tran.toUnderLine(columns.get(i));
             }
             queryWrapper.select(col);
             listHead = getHeads(t.getClass(), columns);
@@ -50,7 +50,9 @@ public class ExcelUtils<T>{
         String filePath = System.getProperty("user.home") + "/Downloads/" + time;
         if (expPro.getIsSubTable()){//是否开启分页打包
             if (!expPro.getIsAll()){
-                queryWrapper.in(expPro.getIdName(), expPro.getIds());
+                if (expPro.getIds() != null && expPro.getIds().size() != 0){
+                    queryWrapper.in(expPro.getIdName(), expPro.getIds());
+                }
             }
             Long maxSize = expPro.getTableSize();
             for (int i = 0; true; i++) {
@@ -71,28 +73,38 @@ public class ExcelUtils<T>{
                 }
                 OutputStream outputStream = new FileOutputStream(fileName);
                 //写入文件中
-                EasyExcel.write(fileName, t.getClass()).head(listHead).sheet("Sheet1").doWrite(reData(list, columns));//写入文件中
+                if (listHead != null){
+                    EasyExcel.write(fileName).head(listHead).sheet("Sheet1").doWrite(reData(list, columns));//写入文件中
+                }else {
+                    EasyExcel.write(fileName, t.getClass()).sheet("Sheet1").doWrite(list);//写入文件中
+                }
                 outputStream.close();
             }
             //发送zip文件
             downloadExcelZip(response, filePath, expPro.getFileName());
         }else{
-
             if (expPro.getIsAll()){//查询全部
                 list = mapper.selectList(queryWrapper);
             }else{//根据id查询
-                queryWrapper.in(expPro.getIdName(), expPro.getIds());
+                if (expPro.getIds() != null && expPro.getIds().size() != 0){
+                    queryWrapper.in(expPro.getIdName(), expPro.getIds());
+                }
                 list = mapper.selectList(queryWrapper);
             }
-            downloadExcel(response, t, reData(list, columns), expPro.getFileName(), listHead);
+
+            if (listHead != null){
+                downloadExcelHeader(response, t, reData(list, columns), expPro.getFileName(), listHead);
+
+            }else{
+                downloadExcel(response, t, list, expPro.getFileName());
+            }
         }
     }
 
-    public static <T> void downloadExcel(HttpServletResponse response, T t, List<List<Object>> data, String fileName, List<List<String>> listHead){
+    public static <T> void downloadExcel(HttpServletResponse response, T t, List<T> data, String fileName){
         response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
         response.setCharacterEncoding("utf-8");
         // 这里URLEncoder.encode可以防止中文乱码 当然和easyexcel没有关系
-
         try {
             fileName = fileName == null ? "我的excel文件":fileName;
             fileName = URLEncoder.encode(fileName, "UTF-8").replaceAll("\\+", "%20");
@@ -101,11 +113,28 @@ public class ExcelUtils<T>{
         }
         response.setHeader("Content-disposition", "attachment;filename*=utf-8''" + fileName + ".xlsx");
         try {
-            EasyExcel.write(response.getOutputStream(), t.getClass()).head(listHead).sheet("Sheet1").doWrite(data);
+            EasyExcel.write(response.getOutputStream(), t.getClass()).sheet("Sheet1").doWrite(data);
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
 
+    public static <T> void downloadExcelHeader(HttpServletResponse response, T t, List<List<Object>> data, String fileName, List<List<String>> listHead){
+        response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        response.setCharacterEncoding("utf-8");
+        // 这里URLEncoder.encode可以防止中文乱码 当然和easyexcel没有关系
+        try {
+            fileName = fileName == null ? "我的excel文件":fileName;
+            fileName = URLEncoder.encode(fileName, "UTF-8").replaceAll("\\+", "%20");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        response.setHeader("Content-disposition", "attachment;filename*=utf-8''" + fileName + ".xlsx");
+        try {
+            EasyExcel.write(response.getOutputStream()).head(listHead).sheet("Sheet1").doWrite(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
@@ -169,6 +198,8 @@ public class ExcelUtils<T>{
         return true;
     }
 
+
+    //获取表格标题头
     public static List<List<String>> getHeads(Class<?> cls,  List<String> list){
         List<List<String>> lists = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {

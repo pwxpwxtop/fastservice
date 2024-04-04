@@ -9,9 +9,9 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import io.github.pwxpwxtop.fastservice.animation.sql.*;
 import io.github.pwxpwxtop.fastservice.animation.sql.Dates;
-import io.github.pwxpwxtop.fastservice.animation.sql.Double64;
-import io.github.pwxpwxtop.fastservice.animation.sql.Float32;
-import io.github.pwxpwxtop.fastservice.animation.sql.Longs;
+import io.github.pwxpwxtop.fastservice.animation.sql.Float8;
+import io.github.pwxpwxtop.fastservice.animation.sql.Float4;
+import io.github.pwxpwxtop.fastservice.animation.sql.Int8;
 import io.github.pwxpwxtop.fastservice.enums.DataType;
 import io.github.pwxpwxtop.fastservice.enums.DatabaseType;
 import io.github.pwxpwxtop.fastservice.model.SqlProperties;
@@ -144,7 +144,7 @@ public class SqlUtils {
         StringBuilder builder = new StringBuilder();
 
 
-        builder.append(" CREATE TABLE IF NOT EXISTS ").append(tableName);
+        builder.append(" create table if not exists ").append(tableName);
         StringJoiner joiner = new StringJoiner("", "( ", " )");
         StringJoiner fieldJoin = new StringJoiner(" , ");
 
@@ -211,7 +211,7 @@ public class SqlUtils {
         result.sort((o1, o2) -> o2.getIndex() - o1.getIndex());
         String tableName = getTableName(cls);
         StringBuilder builder = new StringBuilder();
-        builder.append(" CREATE TABLE IF NOT EXISTS  `").append(tableName).append("`");
+        builder.append(" create table if not exists  `").append(tableName).append("`");
         StringJoiner joiner = new StringJoiner("", "( ", " )");
         StringJoiner fieldJoin = new StringJoiner(" , ");
         for (SqlProperties entity : result) {
@@ -319,23 +319,23 @@ public class SqlUtils {
                 properties.setDataType(DataType.CHAR);
             }
 
-            if (field.isAnnotationPresent(Bit.class)){
+            if (field.isAnnotationPresent(Int2.class)){
                 properties.setDataType(DataType.BIT);
             }
 
-            if (field.isAnnotationPresent(Int.class)){
+            if (field.isAnnotationPresent(Int4.class)){
                 properties.setDataType(DataType.INT);
             }
 
-            if (field.isAnnotationPresent(Longs.class)){
+            if (field.isAnnotationPresent(Int8.class)){
                 properties.setDataType(DataType.LONG);
             }
 
-            if (field.isAnnotationPresent(Float32.class)){
+            if (field.isAnnotationPresent(Float4.class)){
                 properties.setDataType(DataType.FLOAT);
             }
 
-            if (field.isAnnotationPresent(Double64.class)){
+            if (field.isAnnotationPresent(Float8.class)){
                 properties.setDataType(DataType.DOUBLE);
             }
 
@@ -435,7 +435,7 @@ public class SqlUtils {
                 return DataType.DOUBLE;
             case "java.math.BigDecimal":
                 return DataType.DECIMAL;
-            case "java.math.Date":
+            case "java.util.Date":
                 return DataType.DATETIME;
             case "java.lang.String":
             default:

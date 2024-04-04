@@ -1,10 +1,11 @@
 package com.example.mytest;
 
-import com.example.model.MyTest;
 import com.example.model.MyUser;
-import io.github.pwxpwxtop.fastservice.enums.DatabaseType;
+import io.github.pwxpwxtop.fastservice.dao.Dao;
 import io.github.pwxpwxtop.fastservice.utils.SqlUtils;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @Description:
@@ -14,12 +15,12 @@ import org.junit.jupiter.api.Test;
  * @UpdateDate: 2024/3/27 12:50
  * @Version: 1.0
  */
-
-public class TestExcel2 {
+@SpringBootTest
+public class Test1 {
 
    @Test
    public void test01(){
-       System.out.println(SqlUtils.getCreateTable(MyTest.class, DatabaseType.MYSQL));
+
    }
 
 }

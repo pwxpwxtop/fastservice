@@ -3,14 +3,7 @@ package io.github.pwxpwxtop.fastservice.model;
 import io.github.pwxpwxtop.fastservice.enums.DataType;
 import lombok.Data;
 
-/**
- * @Description:
- * @Author: PWX
- * @CreateDate: 2024/3/31 15:20
- * @UpdateUser: IntelliJ IDEA
- * @UpdateDate: 2024/3/31 15:20
- * @Version: 1.0
- */
+
 @Data
 public class SqlProperties {
 
