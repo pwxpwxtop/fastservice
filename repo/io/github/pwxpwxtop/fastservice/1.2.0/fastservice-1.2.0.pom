@@ -11,15 +11,13 @@
 
     <groupId>io.github.pwxpwxtop</groupId>
     <artifactId>fastservice</artifactId>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
     <packaging>jar</packaging>
 
     <name>fastservice</name>
     <description>
-        项目说明：这是一个便捷的开发工具，可以便捷的实现添加，更新，删除，导入，导出功能
-        版本说名:
-        1.修复了添加字段过虑不成功的问题
-        2.模糊查询like的问题，添加了更多查询方式的功能
+        快速实现业务的框架
+        Fast service framework for quickly implementing business
     </description>
     <url>https://github.com/pwxpwxtop/fastservice</url>
     <licenses>
@@ -64,6 +62,15 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.28</version>
         </dependency>
+
+
+        <!-- Postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+        </dependency>
+
 
         <!-- mybatis-plus -->
         <dependency>
@@ -125,7 +132,7 @@
 <!--            </plugin>-->
 
 
-            <!--    签名插件        -->
+<!--            &lt;!&ndash;    签名插件        &ndash;&gt;-->
 <!--            <plugin>-->
 <!--                <groupId>org.apache.maven.plugins</groupId>-->
 <!--                <artifactId>maven-gpg-plugin</artifactId>-->
